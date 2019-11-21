@@ -28,7 +28,7 @@ def import_ml1m_data(data_path, binarize_rating=False, user_snippet=None):
 ###########################################################
 
 data_path = 'ml-1m/ratings.dat'
-rec_type = 'pop'
+rec_type = 'nmf'
 ratings_type = 'explicit'
 test_size = 0.95
 epochs = 100
